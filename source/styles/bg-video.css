@@ -1,0 +1,42 @@
+.bgvideo {
+	height: 70vh;
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bgvideo video {
+	height: 70vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	z-index: 1;
+}
+
+.effect {
+	height: 70vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	z-index: 2;
+	background-color: #a052ff52;
+}
+
+ .video-text {
+	text-align: center;
+	color: black;
+	z-index: 2;
+}
+
+.video-text>h1 {
+	font-weight: bold;
+	font-size: 5em;
+	/* background: radial-gradient(#6600ff 0%, #000b42 100%); */
+	background-color: #a052ff;
+}

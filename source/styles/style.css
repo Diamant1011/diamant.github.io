@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma&display=swap);
+
+body {
+	background: linear-gradient(148deg, #f100f5 0%, #000327 100%);
+	font-family: Michroma, serif;
+}
+
+.nav-link {
+	color: white;
+}
+
+.navbar-nav .nav-link.active {
+	color: rgb(184, 184, 184);
+}
+
+.navbar-brand img {
+	width: 50px;
+}
+
+.navbar-toggler {
+	background-color: rgb(42, 186, 205);
+	padding-inline: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+
+
+#text-center2 {
+	margin-top: 5em;
+}
+
+.card-body {
+	background-color: #feb3ff;
+}
+
+.sidebar {
+	color: #000000;
+	background: linear-gradient(114deg, #8000ff 0%, #000000 100%);
+	margin-bottom: 5em;
+	padding: 1em;
+	font-weight: bold;
+	margin-left: 0.5em;
+}
+
+.card-body {
+	background: linear-gradient(114deg, #8000ff 0%, #000000 100%);
+	color: #000000;
+	font-weight: bold;
+}
+
+.card-title {
+	font-size: 1.5em;
+	font-weight: 1000;
+}
+
+a {
+	text-decoration: none;
+	color: aquamarine;
+}
+
+.slide-text {
+	font-weight: bolder;
+	color: #000000;
+	font-size: 1.5em;
+}
+
+.carousel {
+	margin-bottom: 2em;
+}
+
+#row1 {
+	width: 100%;
+	justify-content: center;
+}
+
+.slide-container {
+	margin: auto auto;
+}
+
+@media (max-width: 780px) {
+	.carousel-indicators {
+		display: none;
+	}
+}
+
+.text-3 {
+	color: #000000;
+	font-weight: bolder;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	font-size: 1.1em;
+}
+
+.carousel-item {
+	background: radial-gradient(#7300ff 0%, #000000 100%);
+}
+
+#foot {
+	color: #000000;
+	font-weight: bolder;
+	font-size: 0.8em;
+	border-top-style: solid;
+	border-top-width: 2px;
+	background: linear-gradient(171deg, #8000ff 0%, #000000 100%);
+}
+
+#foot {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#foot>a>img {
+	margin: 0.5em;
+}
+
+#foot>p {
+	margin: 1em;
+}
+
+.calling {
+	margin-bottom: 2em;
+	margin-top: 2em;
+	animation: CallAnim 2s linear 0s infinite normal none;
+}
+
+@keyframes CallAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+.call>a>p {
+	display: inline-block;
+}
